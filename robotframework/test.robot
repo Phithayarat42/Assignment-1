@@ -10,9 +10,9 @@ ${BROWSER}    chrome
 ${DELAY}    0
  
 *** Test Cases ***
-Page Should Show Header
+Page Should Show Home
     [Documentation]    When visit the page it should show the text Hi Youtube
-    Page Should Show    Home
+    Page Should Contain    Home
  
 *** Keywords ***
 Open Browser And Go To Page
