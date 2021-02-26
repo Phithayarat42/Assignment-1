@@ -12,7 +12,7 @@ ${DELAY}    0
 *** Test Cases ***
 Page Should Show Header
     [Documentation]    When visit the page it should show the text Hi Youtube
-    Page Should Contain    Youtube
+    Page Should Show    Home
  
 *** Keywords ***
 Open Browser And Go To Page
